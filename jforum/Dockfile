@@ -1,5 +1,5 @@
 FROM  tomcat:8.5-jdk8
 MAINTINER  wzb
-ADD jforum-2.5.0.war  /usr/local/webapps
+ADD  index.jsp  /usr/local/webapps/test/
 RUN /bin/bash
 EXPOSE 8080
