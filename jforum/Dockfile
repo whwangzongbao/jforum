@@ -1,0 +1,5 @@
+FROM  tomcat:8.5-jdk8
+MAINTINER  wzb
+ADD jforum-2.5.0.war  /usr/local/webapps
+RUN /bin/bash
+EXPOSE 8080
